@@ -6,6 +6,8 @@ Build out a GIF generator using jQuery Giphy API.
 
 Build out a Gif Generator for the search query of your choice. The site should start with a static placeholder image. Clicking the "Get a New Gif!" button will replace the image with a GIF from Giphy. Clicking "Reset" will go back to the static image. 
 
+[Live Example](http://learn-co-curriculum.github.io/hs-gif-generator/)
+
 ## Instructions
 + Look in the `index.html` file. Add a "src" for the image - it can either be a local picture that you include in the `"public/images"` folder or to another location on the web.
 + open up the `app.js` file. Save your original image location as a variable called "originalImage"
