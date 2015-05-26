@@ -1,16 +1,14 @@
-var apiUrl = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=cute+puppy"
-var originalImage = "https://c1.staticflickr.com/5/4112/5170590074_714d36db83_b.jpg"
+var apiUrl = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC" //add a search query for whatever you want - use "+" symbols to separate words
+var originalImage = //the src you defined should go here!
 
 var changeImage = function(){
 	$.getJSON(apiUrl, function(response){
-		var rand = Math.floor(Math.random() * response["data"].length)
-		var pic = response["data"][rand]["images"]["fixed_height"]["url"]
-		$( "#pic" ).attr("src", pic)
+		// your code here!
 	})
 }
 
 var resetImage = function(){
-	$( "#pic" ).attr("src", originalImage)
+	// your code here!
 }
 
 $(function() {
